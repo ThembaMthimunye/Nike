@@ -3,6 +3,9 @@ import "./index.css"
 import Nav from "./components/nav"
 import Hero from "./Sections/Hero"
 import PopularProducts from "./Sections/PopularProducts"
+import SuperQuality from "./Sections/SuperQuality"
+import Services from "./Sections/Services"
+import SpecialOffer from "./Sections/SpecialOffer"
 
 
 function App() {
@@ -17,20 +20,16 @@ function App() {
     <section>
       <PopularProducts/>
     </section>
-    {/* 
+    
     <section>
-      SuperQuality
+      <SuperQuality/>
     </section>
     <section>
-      popularproduct
+      <Services/>   
     </section>
     <section>
-      Services
+      <SpecialOffer/>   
     </section>
-    <section>
-      special offer
-    </section> */}
-
 
     </main>
   )
