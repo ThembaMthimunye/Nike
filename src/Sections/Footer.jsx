@@ -17,7 +17,7 @@ const Footer = () => {
           Get shoes ready for the new term at your nearest nike store.Find your
           perfect Size in store.get Rewards
         </p>
-        <div className="flex my-10">
+        <div className="flex my-10 gap-10">
           <FaFacebook className="size-[3rem]" />
           <FaTwitterSquare className="size-[3rem]" />
           <FaInstagram className="size-[3rem]" />
