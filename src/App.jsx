@@ -6,6 +6,9 @@ import PopularProducts from "./Sections/PopularProducts"
 import SuperQuality from "./Sections/SuperQuality"
 import Services from "./Sections/Services"
 import SpecialOffer from "./Sections/SpecialOffer"
+import CostomerReviews from "./Sections/CostomerReviews"
+import Subscribe from "./Sections/Subscribe"
+import Footer from "./Sections/Footer"
 
 
 function App() {
@@ -30,6 +33,19 @@ function App() {
     <section>
       <SpecialOffer/>   
     </section>
+
+    <section>
+      <CostomerReviews/>   
+    </section>
+
+    <section>
+      <Subscribe/>   
+    </section>
+
+    <section>
+      <Footer/>   
+    </section>
+
 
     </main>
   )

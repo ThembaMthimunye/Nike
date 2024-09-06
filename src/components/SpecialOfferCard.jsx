@@ -5,18 +5,18 @@ import pic_3 from "../assets/p-3.jpg"
 
 const SpecialOfferCard = () => {
   return (
-    <section className='flex justify-center'>
-        <div className='flex '>
+    <section >
+        <div className='flex justify-center gap-5'>
            <card>
-            <img className='size-[35rem]' src={pic_1} alt="" />
+            <img className='size-[15rem] rounded-xl object-cover' src={pic_1} alt="" />
         </card>
         <card>
-            <img src={pic_2} alt="" />
+            <img className='size-[15rem] rounded-xl object-cover' src={pic_2} alt="" />
         </card> 
         </div>
         
-        <card>
-            <img src={pic_3} alt="" />
+        <card className="">
+            <img className='h-[15rem] w-[32rem] rounded-xl my-[1rem] object-cover' src={pic_3} alt="" />
         </card>
     </section>
   )
